@@ -10,9 +10,9 @@ export default function KpiCard() {
   ];
 
   return (
-    <div className="card card-bordered bg-base-100 hover:bg-base-200 transition-all rounded-2xl">
+    <div className="card card-bordered bg-base-100 hover:bg-base-200 transition-all rounded-2xl shadow-sm">
       <div className="card-body">
-        <h2 className="card-title text-lg mb-4 text-base-content">Metas e KPI</h2>
+        <h2 className="card-title text-lg mb-4 text-base-content justify-center">Metas e KPI</h2>
         <div className="space-y-4">
           {kpis.map((kpi, index) => (
             <div key={index}>

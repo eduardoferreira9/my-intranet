@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Calendar() {
     return (
-        <div className="card card-bordered bg-base-100 hover:bg-base-200 transition-all rounded-2xl">
+        <div className="card card-bordered bg-base-100 hover:bg-base-200 transition-all rounded-2xl shadow-sm">
             <div className="card-body items-center justify-center">
                 <h2 className="card-title text-lg text-base-content mb-2">
                     Calendário

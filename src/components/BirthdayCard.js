@@ -9,7 +9,7 @@ export default function BirthdayCard() {
   ];
 
   return (
-    <div className="card bg-base-100 hover:bg-base-200 transition-all rounded-2xl">
+    <div className="card bg-base-100 hover:bg-base-200 transition-all rounded-2xl shadow-sm">
       <div className="card-body p-0 flex flex-col">
         <h2 className="card-title justify-center text-base-content px-6 pt-6 pb-4">
           Aniversários do Mês
