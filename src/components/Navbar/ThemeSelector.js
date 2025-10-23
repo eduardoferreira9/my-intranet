@@ -37,11 +37,11 @@ export default function ThemeSelector({ currentTheme, themes, onThemeChange }) {
                 tabIndex={0}
                 className="menu menu-compact dropdown-content mt-4 p-2 shadow bg-base-100 rounded-box w-40 z-[1]" 
             >
-                <li className="menu-title text-base-content">Selecione o Tema</li>
+                <li className="menu-title text-base-content">Temas</li>
                 {themes.map((t) => (
                     <li key={t}>
                         <button
-                            className='text-base-content font-normal'
+                            className='text-base-content/70 font-normal hover:font-bold hover:text-base-content'
                             onClick={() => onThemeChange(t)}
                         >
                             {t.charAt(0).toUpperCase() + t.slice(1)}

@@ -15,11 +15,10 @@ export default function UserMenu() {
         <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar cursor-pointer">
                 {/* Avatar simples com anel */}
-                <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                    <img
-                        alt="User avatar"
-                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
-                    />
+                <div className="avatar avatar-placeholder">
+                    <div className="bg-neutral text-neutral-content w-9 rounded-full">
+                        <span className="text-xs">UI</span>
+                    </div>
                 </div>
             </label>
             <ul
